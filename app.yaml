@@ -9,5 +9,5 @@ handlers:
   static_dir: static
 
 - url: /.*
-  upload: index.html
-  static_files: index.html
+  upload: postMessagePortal.html
+  static_files: postMessagePortal.html
