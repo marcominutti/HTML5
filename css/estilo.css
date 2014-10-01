@@ -59,6 +59,13 @@ p,#Contenido li>a{
 h2,h3,h4{
 	font-family: 'Montserrat', sans-serif;
 }
-.parse_imagenes{
+img{
 	border-radius: 20px;
+}
+.amazon_imagenes{
+	width: 800px;
+}
+.parse_imagenes{
+	height: 200px;px;
+	text-align: center;
 }
