@@ -58,3 +58,6 @@ p{
 h2,h3,h4{
 	font-family: 'Montserrat', sans-serif;
 }
+.parse_imagenes{
+	border-radius: 20px;
+}
