@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Plataformas Cloud</title>
+        <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="author" href="humans.txt">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/stickyMojo.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {    
+
+    $('.navegacion').stickyMojo({footerID: '#footer', contentID: '#Contenido'});
+
+    $('.ancla').click(function(){
+        var link = $(this);
+        var anchor  = link.attr('href');
+        $('html, body').stop().animate({
+            scrollTop: jQuery(anchor).offset().top
+        }, 2000);
+        return false;
+    });
+});
+</script>
+    </head>
+    <body>
+    	<header>
+    		<h1>Proveedores Para Apps En La Nube</h1>
+    		<nav class="navegacion">
+    			<ul>
+    				<li>
+    					<a href="#proveedores" class="ancla">5 Proveedores</a>
+    				</li>
+    				<li>
+    					<a href="#cuentas" class="ancla">Información</a>
+    				</li>
+    				<li>
+    					<a href="#plataformas" class="ancla">Plataformas</a>
+    				</li>
+    			</ul>
+    		</nav>
+    	</header>
+    	<section id="Contenido">
+    		<article id="proveedores">
+    			<header>
+    				<h2>5 Proveedores</h2>
+    				<p>
+
+    					<ul>
+    						<li>
+    							<a href="#amazon" class="ancla">Amazon EC2</a> - <a href="https://aws.amazon.com/es/ec2/">Sitio Oficial</a>
+    							<ol>
+    								<li>
+    									<a href="#amazon_cuentas" class="ancla">Tipos De Cuenta</a>
+    								</li>
+    								<li>
+    									<a href="#amazon_ventajas" class="ancla">Ventajas</a>
+    								</li>
+    							</ol>
+    						</li>
+    						<li>
+    							<a href="#google">Google App Engine</a>
+    						</li>
+    						<li>
+    							<a href="#azure">Microsoft Azure</a>
+    						</li>
+    						<li>
+    							<a href="#phone">Phonegap</a>
+    						</li>
+    						<li>
+    							<a href="#parse">Parse</a> - <a href="https://parse.com/">Sitio Oficial</a>
+    							<ol>
+    								<li>Tipos de Cuenta</li>
+    							</ol>
+    						</li>
+    						
+
+    					</ul>
+    					
+    			</header>
+    		</article>
+    		<article id="cuentas">
+    			<header>
+    				<h2>Información</h2>
+    			</header>
+    				<h3  id="amazon">Amazon EC2</h3>
+    				<p>
+    					Amazon Elastic Compute Cloud (Amazon EC2) es un servicio web que proporciona capacidad 							informática con tamaño modificable en la nube. Está diseñado para facilitar a los 							desarrolladores recursos informáticos escalables basados en web.
+    				</p>
+		    				<h4 id="amazon_cuentas">Tipos de cuentas</h4>
+						<p>
+								Amazon EC2 le permite disfrutar de las ventajas financieras de la escala de Amazon. Pagará una tarifa muy baja por la capacidad informática que realmente utiliza.
+						</p> 
+
+								<strong>Instancias bajo demanda</strong>
+						<p>Las instancias bajo demanda le permiten pagar por la capacidad informática consumida cada hora sin necesidad de asumir compromisos a largo plazo. Esto le liberará de los costes y las complejidades de la planificación, la compra y el mantenimiento del hardware y transformará lo que normalmente son grandes costes fijos en costes variables mucho más reducidos. Gracias a On-Demand Instances también se elimina la necesidad de comprar una "red de seguridad" de capacidad para gestionar picos de tráfico periódicos.
+						</p>
+								<strong>Instancias reservadas</strong>
+						<p>Las instancias reservadas ofrecen la opción de realizar un pago puntual reducido por cada instancia que desee reservar y recibir a cambio un descuento importante en el cargo de uso por horas de dicha instancia. Existen tres tipos de instancias reservadas (instancias reservadas de utilización ligera, media e intensa) que permiten equilibrar el importe del pago anticipado a realizar con su precio por hora efectivo. Está a su disposición el Marketplace de instancias reservadas, que le ofrece la oportunidad de vender instancias reservadas si cambian sus necesidades (p. ej., si desea transferir instancias a una nueva región de AWS, pasar a un tipo de instancia nuevo o vender capacidad para proyectos que finalizan antes de que expire el plazo de su instancia reservada).</p>
+								<strong>Instancias puntuales</strong>
+						<p>Con las instancias puntuales, los clientes pueden ofertar la capacidad sin utilizar de Amazon EC2 y ejecutar dichas instancias mientras su oferta supere el precio puntual actual. El precio puntual cambia periódicamente según la oferta y la demanda, y los clientes cuyas ofertas alcancen o superen dicho precio tendrán acceso a las instancias puntuales disponibles. Si es flexible respecto a cuándo ejecutar sus aplicaciones, las instancias puntuales pueden reducir significativamente sus costes de Amazon EC2.
+						</p>
+						<h4 id="amazon_ventajas">Ventajas</h4>
+							<p>
+								<strong>Informática a escala web elástica</strong>
+								<p>
+								Amazon EC2 permite aumentar o disminuir la capacidad en minutos, no en horas ni en días. Puede enviar una, cientos o incluso miles de instancias del servidor simultáneamente. Desde luego, como todo esta operación se controla con API de servicio web, la aplicación se escalará (aumentará o disminuirá su capacidad) dependiendo de sus necesidades.
+								</p> 
+								<strong>Totalmente controlado</strong>
+								<p>Tendrá un control total sobre sus instancias. Tiene acceso de usuario raíz a todas ellas, y puede interactuar con ellas como con cualquier otra máquina. Puede detener su instancia y mantener los datos en su partición de arranque, para reiniciar a continuación la misma instancia a través de las API del servicio web. Las instancias se pueden reiniciar de forma remota mediante las API del servicio web. Asimismo, tiene acceso a la emisión de consola de sus instancias.
+								</p> 
+								<strong>Servicios de alojamiento en la nube flexibles</strong>
+								<p>Tendrá la posibilidad de elegir entre varios tipos de instancia, sistemas operativos y paquetes de software. Amazon EC2 permite seleccionar una configuración de memoria, CPU y almacenamiento de instancias, así como el tamaño de la partición de arranque óptimo para su sistema operativo y su aplicación. Por ejemplo, entre sus opciones de sistemas operativos se incluyen varias distribuciones de Linux y Microsoft Windows Server.
+								Diseñado para utilizarse con otros servicios de Amazon Web Services
+								Amazon EC2 trabaja con Amazon Simple Storage Service (Amazon S3), Amazon Relational Database Service (Amazon RDS), Amazon SimpleDB y Amazon Simple Queue Service (Amazon SQS) para proporcionar una solución completa de informática, procesamiento de consultas y almacenamiento para una gran variedad de aplicaciones.
+								</p>
+								<strong>Fiabilidad</strong>
+								<p>Amazon EC2 ofrece un entorno muy fiable en el que las instancias de sustitución se pueden enviar con rapidez y anticipación. El servicio se ejecuta en los centros de datos y la infraestructura de red acreditados de Amazon. El compromiso del Acuerdo a nivel de servicios de Amazon EC2 es de una disponibilidad del 99,95% en cada Región de Amazon EC2.
+								</p> 
+							</p>
+
+						<h3 id="parse">Parse</h3>
+    			
+    		</article>
+    		<article id="plataformas">
+    			<header>
+    				<h2>Plataformas</h2>
+    			</header>
+    				
+    			
+    		</article>
+
+    	</section>
+    	<footer id="footer">
+
+    	</footer>
+        
+        
+    </body>
+</html>

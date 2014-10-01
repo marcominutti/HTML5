@@ -1,0 +1,49 @@
+h1{
+	text-align: center;
+}
+body{
+	width: 800px;
+	height: 1000px;
+	margin: auto;
+	
+	border-radius: 10px;
+	padding: 50px;
+
+}
+
+article{
+	text-align: justify;
+}
+
+.navegacion ul{
+	list-style: none;
+	text-align: center;
+
+	
+
+}
+.navegacion li{
+	font-weight: bold;
+	width: 200px;
+	height: 70px;
+	background-color: rgba(101, 176, 121, 0.5);
+	text-align: center;
+	display: inline-table;
+	border-radius: 10px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+.navegacion li:hover{
+	color: rgb(111, 96, 104);
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: rgb(111, 96, 104); 
+}
+
+ul{
+	list-style: none;
+}
