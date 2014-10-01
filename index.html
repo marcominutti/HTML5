@@ -62,19 +62,40 @@ $(document).ready(function() {
     								<li>
     									<a href="#amazon_ventajas" class="ancla">Ventajas</a>
     								</li>
+                                    <li>
+                                        <a href="#amazon_plataformas" class="ancla">Plataformas</a>
+                                    </li>
     							</ol>
     						</li>
     						<li>
-    							<a href="#google">Google App Engine</a>
+    							<a href="#google" class="ancla">Google App Engine - </a><a href="https://cloud.google.com/appengine/">Sitio Oficial</a>
+                                <ol>
+                                    <li>
+                                        <a href="#google_precios" class="ancla">Precios</a>
+                                    </li>
+                                </ol>
     						</li>
     						<li>
-    							<a href="#azure">Microsoft Azure</a>
+    							<a href="#azure">Microsoft Azure</a> - <a href="http://azure.microsoft.com/es-es/services/mobile-services/">Sitio Oficial</a>
+                                <ol>
+                                    <li>
+                                        <a href="#azure_precios" class="ancla">Tipos De Cuenta y precio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#azure_plataforma" class="ancla">Plataformas</a>
+                                    </li>
+                                </ol>
     						</li>
     						<li>
-    							<a href="#phone">Phonegap</a>
+    							<a href="#phonegap">Phonegap</a> - <a href="http://phonegap.com/">Sitio Oficial</a>
+                                <ol>
+                                    <li>
+                                        <a href="#phonegap_precios" class="ancla">Precios</a>
+                                    </li>
+                                </ol>
     						</li>
     						<li>
-    							<a href="#parse">Parse</a> - <a href="https://parse.com/">Sitio Oficial</a>
+    							<a href="#parse" class="ancla">Parse</a> - <a href="https://parse.com/">Sitio Oficial</a>
     							<ol>
     								<li>
     									<a href="#parse_cuentas" class="ancla">Tipos De Cuenta</a>
@@ -126,7 +147,21 @@ $(document).ready(function() {
 								<p>Amazon EC2 ofrece un entorno muy fiable en el que las instancias de sustitución se pueden enviar con rapidez y anticipación. El servicio se ejecuta en los centros de datos y la infraestructura de red acreditados de Amazon. El compromiso del Acuerdo a nivel de servicios de Amazon EC2 es de una disponibilidad del 99,95% en cada Región de Amazon EC2.
 								</p> 
 							</p>
-
+                        <h3 id="google">Google</h3>
+                        <p>Google App Engine es un servicio de alojamiento web que presta Google de forma gratuita hasta determinadas cuotas, este servicio permite ejecutar aplicaciones sobre la infraestructura de Google. Si no se cuenta con un dominio propio, Google proporciona uno con la siguiente estructura, midominio.appspot.com. También permite implementar un dominio propio a través de Google Apps. Por el momento las cuentas gratuitas tienen un límite de 500 megabyte de almacenamiento permanente y la suficiente cantidad de ancho de banda y CPU para cinco millones de visitas mensuales, y si la aplicación supera estas cuotas, se pueden comprar cuotas adicionales.
+Actualmente las aplicaciones Google App Engine se implementan mediante los lenguajes de programación Python, Java, Go y PHP.</p>
+                        <h3 id="google_precios">Precios</h3>        
+                        <img src="imagenes/google_precios.png" class="google_precios">
+                        <h3 id="azure">Microsoft Azure</h3>
+                        <h4>Qué es Microsoft Azure</h4>
+                        <p>En resumen, es la plataforma en la nube de Microsoft: una creciente colección de servicios adicionales (proceso, almacenamiento, datos, red y aplicaciones) que le permiten actuar más rápido, llegar más alto y ahorrar dinero. Y eso es solo lo esencial
+                        </p>
+                        <h4 id="azure_precios">Precios</h4>
+                        <img class="azure_imagenes" src="imagenes/azure_precios.png">
+                        <h3 id="phonegap">Phonegap</h3>
+                        <p>Es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems.3 4 Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3. Las aplicaciones resultantes son híbridas, es decir que no son realmente aplicaciones nativas al dispositivo (ya que el renderizado se realiza mediante vistas web y no con interfaces gráficas específicas de cada sistema), pero no se tratan tampoco de aplicaciones web (teniendo en cuenta que son aplicaciones que son empaquetadas para poder ser desplegadas en el dispositivo incluso trabajando con el API del sistema nativo).</p>
+                        <h4 id="phonegap_precios">Precios</h4>
+                        <img src="imagenes/phonegap_precios.png"/>
 						<h3 id="parse">Parse</h3>
 						<h4 id="parse_cuentas">Tipos de Cuenta</h4>
 						<p>Cada que aumenta o disminuyen 10 peticiones por segundo aumenta o disminuye 100 dolares el costo</p>
@@ -139,10 +174,14 @@ $(document).ready(function() {
     			<header>
     				<h2>Plataformas</h2>
 					</header>
-					<h3>Amazon</h3>
+					<h3 id="amazon_plataformas">Amazon</h3>
 					<img src="imagenes/amazon_SO.png" class="amazon_imagenes"/>
 					<img src="imagenes/amazon_DB.png" class="amazon_imagenes"/>
 					<img src="imagenes/amazon_otros.png" class="amazon_imagenes"/>
+                    <h3 id="azure_plataformas">Microsoft Azure</h3>
+                    <img src="imagenes/azure_plataformas.png" class="azure_imagenes"/>
+                    <h3 id="parse_plataformas">Parse</h3>
+                    <img src="imagenes/parse_plataformas.png" class="parse_imagenes_plataformas"/>
     				
     			
     		</article>

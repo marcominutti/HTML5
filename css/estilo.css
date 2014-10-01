@@ -67,5 +67,16 @@ img{
 }
 .parse_imagenes{
 	height: 200px;px;
-	text-align: center;
+	
+}
+.azure_imagenes{
+	width: 800px;
+	height: 400px;
+}
+.parse_imagenes_plataformas{
+	width: 800px;
+	
+}
+.google_precios{
+	width: 800px;
 }
