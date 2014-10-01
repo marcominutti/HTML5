@@ -1,6 +1,7 @@
 h1{
 	text-align: center;
 	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
 }
 body{
 	width: 800px;
@@ -44,7 +45,16 @@ a{
 a:visited{
 	color: rgb(111, 96, 104); 
 }
+a:link{
+	color: rgb(111, 96, 104); 
+}
 
 ul{
 	list-style: none;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+h2,h3,h4{
+	font-family: 'Montserrat', sans-serif;
 }
